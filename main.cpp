@@ -12,7 +12,7 @@ void renderScene()
 
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	gluLookAt(0.0f, 10.0f, 10.0f, 0.0f, 0.0f,  0.0f, 0.0f, 1.0f,  0.0f);
+	gluLookAt(0.0f, 0.0f, 0.0f, 0.0f, 0.0f,  0.0f, 0.0f, 0.0f,  0.0f);
 
 <<<<<<< HEAD
 	glClearColor(0.0f,0.0f,0.0f,0.0f);
